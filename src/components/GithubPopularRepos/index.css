@@ -1,0 +1,50 @@
+.app-container {
+  min-height: 100vh;
+  padding: 20px;
+  background-color: #ffffff;
+}
+
+.heading {
+  font-family: Lobster;
+  font-size: 40px;
+  text-align: center;
+  color: #1e293b;
+}
+
+.filters-container {
+  display: flex;
+  list-style-type: none;
+  padding-left: 0;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.repos-list {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  padding-left: 0;
+  justify-content: center;
+}
+
+.loader-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.failure-view {
+  text-align: center;
+}
+
+.failure-img {
+  width: 300px;
+}
+
+.failure-text {
+  font-family: Roboto;
+  font-size: 24px;
+  color: #e73959;
+}
